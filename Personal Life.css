@@ -1,0 +1,33 @@
+body
+{
+    /* The font code was obtained from Robert Prevost */
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Images/Color Fade.png");
+    background-size: cover;
+    color: white;
+}
+
+/* The CSS below was obtained via w3schools.com */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: dodgerblue;
+    color: black;
+}
